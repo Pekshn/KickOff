@@ -6,6 +6,7 @@ KickOff iOS app covering:
   -  Rapid Prototyping – Fast UI/UX creation for early presentation and feedback.
   -  SwiftUI Animations – Smooth and elegant animation effects.
   -  Haptic Feedback – Precise and responsive vibration effects.
+  -  Localization – Supporting multiple languages with Localizable.strings.
 
 📌 Note: No external dependencies – Just download and build.
 
