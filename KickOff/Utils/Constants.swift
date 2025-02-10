@@ -28,6 +28,7 @@ struct Constants {
     }
     
     //UX
+    static let feedback = UIImpactFeedbackGenerator(style: .medium)
     
     //API
     

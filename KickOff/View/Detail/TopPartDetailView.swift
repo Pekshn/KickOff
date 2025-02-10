@@ -11,6 +11,7 @@ struct TopPartDetailView: View {
     
     //MARK: - Properties
     @State private var isAnimating = false
+    @EnvironmentObject var shop: Shop
     
     //MARK: - Body
     var body: some View {
@@ -20,7 +21,7 @@ struct TopPartDetailView: View {
                 Text("Price")
                     .fontWeight(.semibold)
                 
-                Text(Constants.sampleProduct.formattedPrice)
+                Text(shop.selectedProduct?.formattedPrice ?? Constants.sampleProduct.formattedPrice)
                     .font(.largeTitle)
                     .fontWeight(.black)
                     .scaleEffect(1.35, anchor: .leading)
@@ -29,7 +30,7 @@ struct TopPartDetailView: View {
             
             Spacer()
             
-            Image(Constants.sampleProduct.image)
+            Image(shop.selectedProduct?.image ?? Constants.sampleProduct.image)
                 .resizable()
                 .scaledToFit()
                 .offset(y: isAnimating ? 0 : -35)
@@ -49,5 +50,6 @@ struct TopPartDetailView_Previews: PreviewProvider {
         TopPartDetailView()
             .previewLayout(.sizeThatFits)
             .padding()
+            .environmentObject(Shop())
     }
 }
