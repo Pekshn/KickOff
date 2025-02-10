@@ -18,7 +18,7 @@ struct AddToCartDetailView: View {
             Constants.feedback.impactOccurred()
         } label: {
             Spacer()
-            Text("Add to cart".uppercased())
+            Text(Localization.addToCart.uppercased())
                 .font(.system(.title2, design: .rounded))
                 .fontWeight(.bold)
                 .foregroundColor(.white)

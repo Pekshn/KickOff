@@ -12,17 +12,17 @@ struct FooterView: View {
     //MARK: - Body
     var body: some View {
         VStack(alignment: .center, spacing: 10) {
-            Text("We offer the most cutting edge, comfortable, lightweight and durable football helmets in the market at affordable prices.")
+            Text(Localization.companyInfo)
                 .foregroundColor(.gray)
                 .multilineTextAlignment(.center)
                 .layoutPriority(2)
             
-            Image("logo-lineal")
+            Image(Constants.logoLineal)
                 .renderingMode(.template)
                 .foregroundColor(.gray)
                 .layoutPriority(0)
             
-            Text("Copyright ©  Petar Novakovic \nAll right reserved")
+            Text(Localization.copyright)
                 .font(.footnote)
                 .fontWeight(.bold)
                 .foregroundColor(.gray)

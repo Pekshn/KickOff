@@ -22,7 +22,7 @@ struct NavigationBarDetailView: View {
                     shop.showingProduct = false
                 }
             } label: {
-                Image(systemName: "chevron.left")
+                Image(systemName: Constants.systemChevronLeft)
                     .font(.title)
                     .foregroundColor(.white)
             }
@@ -32,7 +32,7 @@ struct NavigationBarDetailView: View {
             Button {
                 
             } label: {
-                Image(systemName: "cart")
+                Image(systemName: Constants.systemCart)
                     .font(.title)
                     .foregroundColor(.white)
             }

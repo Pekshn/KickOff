@@ -30,9 +30,18 @@ struct Constants {
     //UX
     static let feedback = UIImpactFeedbackGenerator(style: .medium)
     
-    //API
+    //System Image
+    static let systemChevronLeft = "chevron.left"
+    static let systemCart = "cart"
+    static let systemMinusCircle = "minus.circle"
+    static let systemPlusCircle = "plus.circle"
+    static let systemHeartCircle = "heart.circle"
+    static let systemStarFill = "star.fill"
+    static let systemMagnifyingglass = "magnifyingglass"
     
-    //Image
+    //Custom Image
+    static let logoLineal = "logo-lineal"
+    static let logoDark = "logo-dark"
     
     //Font
     

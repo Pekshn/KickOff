@@ -18,7 +18,7 @@ struct TopPartDetailView: View {
         HStack(alignment: .center, spacing: 6) {
             //Price
             VStack(alignment: .leading, spacing: 6) {
-                Text("Price")
+                Text(Localization.price)
                     .fontWeight(.semibold)
                 
                 Text(shop.selectedProduct?.formattedPrice ?? Constants.sampleProduct.formattedPrice)

@@ -12,17 +12,17 @@ struct LogoView: View {
     //MARK: - Body
     var body: some View {
         HStack(spacing: 4) {
-            Text("Kick".uppercased())
+            Text(Localization.kick.uppercased())
                 .font(.title3)
                 .fontWeight(.black)
                 .foregroundColor(.black)
             
-            Image("logo-dark")
+            Image(Constants.logoDark)
                 .resizable()
                 .scaledToFit()
                 .frame(width: 30, height: 30, alignment: .center)
             
-            Text("Off".uppercased())
+            Text(Localization.off.uppercased())
                 .font(.title3)
                 .fontWeight(.black)
                 .foregroundColor(.black)

@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  KickOff
+
+  Created by Petar  on 10.2.25..
+  
+*/
+
+"kick" = "Kick";
+"off" = "Off";
+"categories" = "Categories";
+"company_info" = "We offer the most cutting edge, comfortable, lightweight and durable football helmets in the market at affordable prices.";
+"copyright" = "Copyright ©  Petar Novakovic \nAll right reserved";
+"helmets" = "Helmets";
+"brands" = "Brands";
+"add_to_cart" = "Add to cart";
+"protective_gear" = "Protective Gear";
+"ratings" = "Ratings";
+"sizes" = "Sizes";
+"price" = "Price";
+

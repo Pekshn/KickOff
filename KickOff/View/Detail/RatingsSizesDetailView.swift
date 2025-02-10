@@ -16,7 +16,7 @@ struct RatingsSizesDetailView: View {
     var body: some View {
         HStack(alignment: .top, spacing: 3) {
             VStack(alignment: .leading, spacing: 3) {
-                Text("Ratings")
+                Text(Localization.ratings)
                     .font(.footnote)
                     .fontWeight(.semibold)
                     .foregroundColor(Constants.colorGray)
@@ -26,7 +26,7 @@ struct RatingsSizesDetailView: View {
                         Button {
                             
                         } label: {
-                            Image(systemName: "star.fill")
+                            Image(systemName: Constants.systemStarFill)
                                 .frame(width: 25, height: 25)
                                 .background(Constants.colorGray.cornerRadius(5))
                                 .foregroundColor(.white)
@@ -39,7 +39,7 @@ struct RatingsSizesDetailView: View {
             
             //Sizes
             VStack(alignment: .trailing, spacing: 4) {
-                Text("Sizes")
+                Text(Localization.sizes)
                     .font(.footnote)
                     .fontWeight(.semibold)
                     .foregroundColor(Constants.colorGray)

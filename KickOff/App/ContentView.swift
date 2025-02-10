@@ -32,7 +32,7 @@ struct ContentView: View {
                             
                             CategoryGridView()
                             
-                            TitleView(title: "Helmets")
+                            TitleView(title: Localization.helmets)
                             
                             LazyVGrid(columns: Constants.gridLayout, spacing: 15) {
                                 ForEach(Constants.products) { product in
@@ -48,7 +48,7 @@ struct ContentView: View {
                             } //: LazyVGrid
                             .padding(15)
                             
-                            TitleView(title: "Brands")
+                            TitleView(title: Localization.brands)
                             
                             BrandGridView()
                             

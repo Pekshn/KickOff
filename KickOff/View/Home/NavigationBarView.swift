@@ -18,7 +18,7 @@ struct NavigationBarView: View {
             Button {
                 
             } label: {
-                Image(systemName: "magnifyingglass")
+                Image(systemName: Constants.systemMagnifyingglass)
                     .font(.title)
                     .foregroundColor(.black)
             } //: Button
@@ -40,7 +40,7 @@ struct NavigationBarView: View {
                 
             } label: {
                 ZStack {
-                    Image(systemName: "cart")
+                    Image(systemName: Constants.systemCart)
                         .font(.title)
                         .foregroundColor(.black)
                     

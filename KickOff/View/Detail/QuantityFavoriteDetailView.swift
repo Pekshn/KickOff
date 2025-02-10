@@ -21,7 +21,7 @@ struct QuantityFavoriteDetailView: View {
                     counter -= 1
                 }
             } label: {
-                Image(systemName: "minus.circle")
+                Image(systemName: Constants.systemMinusCircle)
                     .opacity(counter == 0 ? 0.2 : 1)
             } //: Button
             
@@ -35,7 +35,7 @@ struct QuantityFavoriteDetailView: View {
                     counter += 1
                 }
             } label: {
-                Image(systemName: "plus.circle")
+                Image(systemName: Constants.systemPlusCircle)
                     .opacity(counter == 10 ? 0.2 : 1)
             } //: Button
             
@@ -44,7 +44,7 @@ struct QuantityFavoriteDetailView: View {
             Button {
                 Constants.feedback.impactOccurred()
             } label: {
-                Image(systemName: "heart.circle")
+                Image(systemName: Constants.systemHeartCircle)
                     .foregroundColor(.pink)
             } //: Button
         } //: HStack
