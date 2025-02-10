@@ -32,7 +32,7 @@ struct NavigationBarView: View {
                     withAnimation(.easeOut(duration: 0.6)) {
                         isLogoAnimated.toggle()
                     }
-                }
+                } //: onAppear
             
             Spacer()
             

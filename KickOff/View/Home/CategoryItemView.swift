@@ -36,7 +36,7 @@ struct CategoryItemView: View {
                 RoundedRectangle(cornerRadius: 12)
                     .stroke(Color.gray, lineWidth: 1)
             )
-        }
+        } //: Button
     }
 }
 

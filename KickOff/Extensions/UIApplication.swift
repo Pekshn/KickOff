@@ -9,6 +9,7 @@ import UIKit
 
 extension UIApplication {
     
+    //MARK: - Properties
     var safeAreaTopInset: CGFloat {
         connectedScenes
             .compactMap { $0 as? UIWindowScene }

@@ -9,8 +9,6 @@ import SwiftUI
 
 struct CategoryGridView: View {
     
-    //MARK: - Properties
-    
     //MARK: - Body
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
@@ -20,9 +18,9 @@ struct CategoryGridView: View {
                 ) {
                     ForEach(Constants.categories) { category in
                         CategoryItemView(category: category)
-                    }
-                }
-            }
+                    } //: ForEach
+                } //: Section
+            } //: LazyHGrid
             .frame(height: 140)
             .padding(.horizontal, 15)
             .padding(.vertical, 10)

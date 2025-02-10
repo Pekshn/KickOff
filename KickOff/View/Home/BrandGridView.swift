@@ -9,8 +9,6 @@ import SwiftUI
 
 struct BrandGridView: View {
     
-    //MARK: - Properties
-    
     //MARK: - Body
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {

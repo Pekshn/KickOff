@@ -16,7 +16,7 @@ struct FeaturedTabView: View {
                 FeaturedItemView(player: player)
                     .padding(.top, 10)
                     .padding(.horizontal, 15)
-            }
+            } //: ForEach
         } //: TabView
         .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
     }
